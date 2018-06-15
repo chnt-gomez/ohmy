@@ -17,7 +17,7 @@ public class Operation {
     @ColumnInfo(name = "amount")
     private float amount;
 
-    @ColumnInfo(name = "applyDate")
+    @ColumnInfo(name = "apply_date")
     private long applyDate;
 
 

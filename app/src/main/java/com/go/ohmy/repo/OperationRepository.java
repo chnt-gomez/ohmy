@@ -13,6 +13,7 @@ import java.util.List;
 public class OperationRepository {
 
     private OperationDAO operationDAO;
+
     private LiveData<List<Operation>> allOperations;
 
     public OperationRepository(Application application){
